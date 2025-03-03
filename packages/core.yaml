@@ -309,4 +309,8 @@ select:
 climate:
   - platform: tclac
     name: "${device_name} Climate"
+    visual:
+      temperature_step:
+        target_temperature: 1.0
+        current_temperature: 0.1
     id: ${device_name}climate
